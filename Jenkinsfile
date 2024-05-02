@@ -5,7 +5,7 @@ pipeline {
         ID_DOCKER = "${ID_DOCKER_PARAMS}"
         IMAGE_NAME = "jk-flask-auth-tp"
         IMAGE_TAG = "latest"
-        DOCKERHUB_PASSWORD = "${DOCKERHUB_PASSWORD_PSW}"
+        DOCKERHUB_PASSWORD = "${DOCKERHUB_PASSWORD_PARAMS}"
         RENDER_API_TOKEN = credentials('RENDER_API_TOKEN')
         RENDER_SERVICE_ID = "srv-coplmvv79t8c7380lqjg"
         RENDER_DEPLOY_HOOK_URL = credentials('RENDER_DEPLOY_HOOK_URL_TP3')
